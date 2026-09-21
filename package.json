@@ -1,0 +1,36 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "Web Scraper experimental voltado para estudos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "dev:api": "tsx watch src/api/server.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guguinh0/web-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guguinh0/web-scraper/issues"
+  },
+  "homepage": "https://github.com/Guguinh0/web-scraper#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.20.3",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "playwright": "^1.63.0"
+  }
+}
